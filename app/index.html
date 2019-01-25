@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+   <link rel="stylesheet" href="../app/styles/app.css">
+   <title>CryptoStar Dapp on Ethereum</title>
+   <link rel="icon" href="ico.jpg" type="image/jpg" />
+   <!-- <script src="../app/scripts/index.js" type="application/javascript"></script> -->
+   <script src="./app.js"></script>
+</head>
+
+<body>
+   <h1>CryptoStar Dapp on Ethereum</h1>
+   
+   <div class="container">
+      <div id="create">
+         <h3>Create a Star</h3>
+         <label for="starName">Star Name:</label>
+         <input type="text" id="starName" autocomplete="off" placeholder="Enter Star  Name"></input><br>
+         <label for="starId">Token ID:</label>
+         <input type="text" id="starId"  autocomplete="off" placeholder="Enter Token ID" ></input>
+         <button id="createStar" onclick="App.createStar()">Create Star</button>
+      </div>
+      
+      <div id="lookup">
+         <h3>Lookup Star</h3>
+         <label for="starId">Enter Token ID:</label>
+         <input type="text" size="10" id="tokenId" autocomplete="off" placeholder="Enter Token ID" />
+         <button id="lookUpStar" onclick="App.tokenIdToStarInfo()">Lookup Star</button>
+      </div>
+
+     
+   </div>
+      <div id="span">
+         <span id="status"></span>
+      </div>
+</body>
+
+</html>

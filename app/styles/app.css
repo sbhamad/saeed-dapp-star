@@ -1,0 +1,106 @@
+body {
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 10%;
+  font-family: "Open Sans", sans-serif;
+}
+
+label {
+  display: inline-block;
+  width: 100px;
+}
+
+input {
+  width: 500px;
+  padding: 5px;
+  font-size: 16px;
+}
+
+#span {
+  margin: 0 auto;
+  font-size: 20px;
+  font-weight: bold;
+  width: 600px;
+}
+#createStar {
+  margin: 20px 0;
+}
+#idinput {
+  margin-right: 20px;
+}
+
+button {
+  font-size: 16px;
+  padding: 5px;
+}
+
+.container {
+  padding: 1em;
+  /* border: 1px solid #222;
+  border-radius: 1em; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border-radius: 5px;
+}
+
+#create,
+#lookup,
+#transfer {
+  background-color:#f2f2f2;
+  flex-wrap: wrap;
+  flex-direction: column;
+  border: 1px solid rgb(175, 172, 172);
+  width: 250px;
+  margin: 5px;
+  padding: 10px;
+  align-content: center;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="text"]:focus {
+  border: 2px solid rgba(60, 191, 243, 0.856);
+}
+
+#lookUpStar {
+  margin: 20px 0;
+}
+
+h1, h2 {
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  color: #AAA;
+  font-size: 32px;
+}
+
+h3 {
+  font-weight: normal;
+  color: #AAA;
+  font-size: 24px;
+}
+
+.black {
+  color: black;
+}
+
+#balance {
+  color: black;
+}
+
+.hint {
+  color: #666;
+}
